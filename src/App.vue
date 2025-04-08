@@ -6,7 +6,7 @@
         <h2 class="title">Estudio Contable Chupillon Espinoza Asociados</h2>
       </div>
     </div>
-
+    <!-- Hola -->
     <div v-else>
       <v-app-bar :color="'#0a3571'" dark app>
         <v-img src="/logo.jpg" alt="logo chupillon" max-width="400" class="rounded" />
