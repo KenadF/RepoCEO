@@ -7,8 +7,16 @@ import 'vuetify/styles'
 import { aliases, mdi } from 'vuetify/iconsets/mdi'
 import '@mdi/font/css/materialdesignicons.css'
 import { createVuetify } from 'vuetify'
-const app = createApp(App)
+import Aos from 'aos'
+import 'aos/dist/aos.css' //
 
+const app = createApp(App)
+Aos.init({
+  duration: 1000,
+  once: true,
+  mirror: false,
+  easing: 'ease-in-out',
+})
 const vuetify = createVuetify({
   icons: {
     defaultSet: 'mdi',
